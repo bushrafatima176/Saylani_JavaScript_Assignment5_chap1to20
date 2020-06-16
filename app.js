@@ -596,7 +596,18 @@
 // document.write("Delete first color: " +color+"<br>");
 // color.pop();
 // document.write("Delete last color: "+color+"<br>");
-
+// var color3 =["Red","Yellow","Pink","Black","Blue"];  
+// document.write("Color names: "+color3+"<br>");
+// var color4 = +prompt("Which index do you want add a color");
+// var color5 = prompt("Enter a color");
+// color3.splice(0,color4,color5);
+// document.write("Updated Array " +color3+"<br>");
+// var color6 =["Red","Yellow","Pink","Black","Blue","Purple"];
+// document.write("Color names: "+color6+"<br>");
+// var color7 =+prompt("Which index do you want to delete a color");
+// var color8 =+prompt("How many color do yo want  to delete");
+// color6.splice(color7,color8);
+// document.write("Updated Array " +color6+"<br>");
 
 //Task 10:
 // var score =[320,230,480,120];
@@ -617,21 +628,21 @@
 // document.write("String :"+"<br>"+arr1);
 
 //Task 13:
-// var device = ["keyboard","mouse","printer","monitor"];
+
 // document.write("Devices :"+"<br>"+device+"<br>");
 // device.shift();
 // for(var i=0; i<device.length;i++)
 // {
-//     document.write("Out :"+"<br>"+device[i]+"<br>");
+//        document.write("Out :"+"<br>"+device[i]+"<br>");
 // }
 
 //Task 14:
 // var device = ["keyboard","mouse","printer","monitor"];
 // document.write("Devices :"+"<br>"+device+"<br>");
-// var device1=device.pop();
-// for(var i=0; i<device.length; i--)
+// device.pop();
+// for(var i=device.length-1; i>=0; i--)
 // {
-//     document.write("Out: "+"<br>"+device1[i]);
+//     document.write("Out: "+"<br>"+device[i]+"<br>");
 // }
 
 
@@ -737,4 +748,6 @@
 //  {
 //      document.write(mul+",");
 //  }
+
+
 
